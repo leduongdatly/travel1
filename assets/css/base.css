@@ -1,7 +1,7 @@
 :root {
     --white: #fff;
     --black: #000;
-    --black-blur: rgba(0, 0, 0, 0.1);
+    --black-blur: rgba(0, 0, 0, 0.4);
     --white-blur: rgba(255, 255, 255, 0.6);
     --purple: #BA71DA;
     --aqua: #14B9D5;
