@@ -1,11 +1,5 @@
 /* HEADER */
 #header {
-    height: 870px;
-    position: relative;
-    background: red !important;
-}
-
-.header__parallax {
     background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg');
     height: 100%;
     background-attachment: fixed;
@@ -14,21 +8,13 @@
     background-size: cover;
 }
 
-.header__wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding: 33px 0;
-    background-color: var(--black-blur);
-}
-
 .wrapper__nav {
-    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 50px;
+    background-color: var(--black-blur);
 }
 
 .wrapper__left {
@@ -174,23 +160,20 @@
 
 /* SEARCH */
 .header__search {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    bottom: 0;
     text-align: center;
-    transform: translateY(-50%);
+    padding: 70px 0 180px 0;
 }
 
 .header__search h1 {
     font-size: 5rem;
+    line-height: 5rem;
     color: var(--white);
     margin-bottom: 35px;
 }
 
 .header__search h6 {
     font-size: 2rem;
+    line-height: 2rem;
     color: var(--white);
     margin-bottom: 65px;
     line-height: 20px;
@@ -413,7 +396,6 @@
 .content__package-btn {
     font-size: 1.4rem;
     letter-spacing: 2px;
-    display: block;
     text-decoration: none;
     text-transform: uppercase;
     background-color: var(--white);
@@ -863,11 +845,12 @@
     background-color: var(--aqua);
     color: var(--white);
     margin-left: 10px;
-    padding: 10px 20px;
+    padding: 18px 20px;
     font-size: 1.4rem;
     line-height: 1.4rem;
     border-radius: 30px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .wrap__footer {

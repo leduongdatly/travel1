@@ -1,12 +1,97 @@
-/* mobile & tablet */
-@media (max-width: 1023px) {}
-
-/* tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
-    .wrapper__list {
-        display: none;
+/* mobile */
+@media (max-width: 740px) {
+    body {
+        padding: 0;
     }
 }
 
-/* mobile */
-@media (max-width: 740px) {}
+/* >= Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {}
+
+/* mobile & tablet */
+@media (max-width: 1024px) {
+    .wrapper__list {
+        display: none;
+    }
+
+    .wrapper__nav {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .wrapper__logo {
+        margin: 0 auto;
+    }
+
+    .wrapper__left {
+        display: block;
+    }
+
+    .wrapper__right {
+        margin-top: 10px;
+    }
+
+    .search__bar {
+        width: 100%;
+    }
+
+    .search__width {
+        width: 100%;
+    }
+
+    .search__icon-link {
+        padding: 20px 0;
+    }
+
+    .search__icon {
+        margin-bottom: 15px;
+    }
+
+    .destination__text {
+        margin-bottom: 40px;
+    }
+
+    .content__destination {
+        margin-top: 40px;
+    }
+
+    .content__package-wrapper {
+        display: block;
+    }
+
+    .content__package-title {
+        margin-bottom: 60px;
+    }
+
+    .content__package {
+        padding: 90px 0;
+    }
+
+    .content__package-link {
+        text-align: center;
+    }
+
+    .show__slider-right {
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    .promo__place {
+        margin-bottom: 30px;
+    }
+
+    .wrap__contact {
+        padding: 0;
+    }
+
+    .contact__left {
+        margin-bottom: 30px;
+    }
+
+    .right__input input,
+    .right__btn a {
+        width: 100%;
+        display: inline-block;
+    }
+}
