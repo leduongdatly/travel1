@@ -268,19 +268,24 @@
     text-align: center;
 }
 
-.content__destination h3 {
+.destination__header,
+.promo__header {
     font-size: 1.4rem;
+    line-height: 1.4rem;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
     margin-bottom: 25px;
 }
 
-.content__destination>h2 {
+.destination__text,
+.promo__text {
     font-size: 3.6rem;
+    line-height: 3.6rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
+    opacity: 0.7;
 }
 
 .destination__wrapper {
@@ -380,7 +385,7 @@
 }
 
 .content__package {
-    background: url('../image/parallax-search-2.jpg');
+    background-image: url('../image/parallax-search-2.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -419,7 +424,6 @@
 
 .content__show {
     margin-top: 75px;
-    margin-bottom: 500px;
 }
 
 .show__slider-right {
@@ -576,4 +580,285 @@
     color: var(--aqua);
     font-size: 1.4rem;
     line-height: 1.4rem;
+}
+
+.content__parallax {
+    margin-top: 75px;
+}
+
+.parallax__left {
+    background-image: url('../image/parallax-5-filter.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__right {
+    background-image: url('../image/parallax-6-filter.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__detail {
+    padding: 90px;
+    text-align: center;
+}
+
+.parallax__detail p {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--white);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.parallax__detail h3 {
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    color: var(--white);
+    margin-bottom: 40px;
+}
+
+.parallax__detail a {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: #F3A46B;
+    text-decoration: none;
+    background-color: var(--white);
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.content__promo {
+    text-align: center;
+    margin-top: 75px;
+}
+
+/*  */
+
+.promo__img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.promo__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.promo__img a {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.promo__img .promo__modify-1 {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.promo__img .promo__modify-2 {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.promo__img a img {
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    top: -50%;
+    transform: translateY(50%);
+}
+
+.promo__detail {
+    padding: 30px;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+.promo__header-link {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+}
+
+.promo__header-name {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #555555;
+    margin-bottom: 10px;
+    font-weight: 1000;
+}
+
+.promo__header-location {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #9A9A9A;
+    margin-bottom: 20px;
+}
+
+.promo__price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.promo__price a {
+    text-decoration: none;
+}
+
+.promo__price-left {
+    text-align: left;
+}
+
+.promo__price-heading,
+.promo__price-text a {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.promo__price-text {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.promo__price-text span {
+    background-color: #ffd205;
+    padding: 0 10px;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+
+.promo__price-text .promo__modify-1 {
+    background-color: #f76570;
+}
+
+.promo__price-text .promo__modify-2 {
+    background-color: #ba71da;
+}
+
+.promo__price-right a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #555555;
+}
+
+.promo__body {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.promo__body p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #9A9A9A;
+}
+
+.promo__btn {
+    text-align: left;
+}
+
+.promo__btn a {
+    font-size: 1.3rem;
+    line-height: 3.4rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 10px 30px;
+    background-color: #ffd205;
+    border-radius: 20px;
+}
+
+.promo__btn .promo__modify-1 {
+    background-color: #f76570;
+}
+
+.promo__btn .promo__modify-2 {
+    background-color: #ba71da;
+}
+
+.footer {
+    margin-top: 65px;
+}
+
+.footer__wrap {
+    background-image: url('../image/parallax-7.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 70px;
+}
+
+.wrap__contact {
+    padding: 0 20%;
+    margin-bottom: 60px;
+}
+
+.contact__left p {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    letter-spacing: 2px;
+    color: #9a9a9a;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact__left h2 {
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    letter-spacing: 2px;
+    color: #555555;
+}
+
+.contact__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__right {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right__input input {
+    outline: none;
+    border: none;
+    padding: 15px 60px 15px 20px;
+    border-radius: 30px;
+}
+
+.right__btn a {
+    text-decoration: none;
+    background-color: var(--aqua);
+    color: var(--white);
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    border-radius: 30px;
+    text-transform: uppercase;
 }
