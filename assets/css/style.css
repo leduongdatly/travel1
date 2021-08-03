@@ -4,7 +4,7 @@
 
 /* HEADER */
 #header {
-    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg');
+    background-image: url('../image/parallax-2.jpg');
     height: 100%;
     background-attachment: fixed;
     background-position: center;
